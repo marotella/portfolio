@@ -19,6 +19,7 @@ function About(props) {
                 <section>
                     <h3>{about.name}</h3>
                     <p>{about.bio}</p>
+                    <img src={process.env.PUBLIC_URL + "/mrotella.jpeg"} alt="michelle" />
                     
                     <p>Learn more about my experiences here.</p>
                 </section>

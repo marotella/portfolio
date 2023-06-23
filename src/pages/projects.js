@@ -23,7 +23,7 @@ function Projects(props) {
               <div key={project.id} className="projectrow">
                 <div className="projectDisplay">
                   <h1>{project.name}</h1>
-                  <img src={project.image} />
+                  <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />
                   <a href={project.git}>
                     <button>Github</button>
                   </a>
