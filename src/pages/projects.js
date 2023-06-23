@@ -15,10 +15,12 @@ function Projects(props) {
         }, []
         )
         const loaded = () => {
-            return projects.map((project) => (
-              <div className="projectrow">
-                <h3>Projects</h3>
-                <p>As a junior developer these projects demonstrate my progress and skill as a developer.</p>
+            return (
+            <>
+            <h3>Projects</h3>
+            <p>As a junior developer these projects demonstrate my progress and skill as a developer.</p>
+            {projects.map((project) => (
+              <div key={project.id} className="projectrow">
                 <div className="projectDisplay">
                   <h1>{project.name}</h1>
                   <img src={project.image} />
@@ -31,7 +33,9 @@ function Projects(props) {
 
                 </div>
               </div>
-            ))
+            ))}
+            </>
+            )
           }
           return projects ? loaded() : <h1>Loading...</h1>
         }
