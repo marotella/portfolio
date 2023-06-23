@@ -24,6 +24,7 @@ function About(props) {
                 </section>
                 <section>
                     <h3>Skills</h3>
+                    <p>You can see projects that demonstrate my skills here.</p>
                     <section>
                         <p>Tools</p>
                         <ul>
