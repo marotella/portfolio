@@ -23,7 +23,7 @@ function Home() {
                 </div>
                 </section>
             <section  className="mb-8 md:flex md:items-center md:flex-row md:mb-16">
-                <div className="md:mr-8">
+                <div className="md:mr-8 text-center">
                 <h2 className="text-xl md:text-3xl">Contact</h2>
                 <p >I know collaboration and feedback are key to delivering a great product. If you want to connect, you can do so <Link to="/contact">here</Link>. Let's make something great together!</p>
                 </div>
