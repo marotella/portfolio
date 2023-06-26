@@ -17,19 +17,21 @@ function Projects(props) {
 
   const loaded = () => {
     return (
-      <main className="p-4 sm:p-8 md:p-16  flex flex-col items-center justify-center">
+      <main className="p-4 sm:p-8 md:p-16  flex flex-col items-center justify-center text-white">
         <section className="mb-8 text-center">
           <h3 className="text-2xl">Projects</h3>
           <p>As a junior developer, these projects demonstrate my progress and skills.</p>
         </section>
         {projects.map((project) => (
-          <div key={project.id} className="projectrow mb-8 text-center">
-            <h1 className="text-2xl">{project.name}</h1>
+          <div key={project.id} className="projectrow mb-8 text-left">
+        
             <div className="flex flex-col md:flex-row">
               <div className="projectDisplay md:w-1/3 mb-4 md:mb-0">
-                <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />
+                <img className="shadow-xl" src={process.env.PUBLIC_URL + project.image} alt={project.name} />
               </div>
-              <div className="md:w-2/3">
+              <div className="md:w-2/3 p-4">
+                <h1 className="text-2xl font-[600]">{project.name}</h1>
+                <hr class="border border-solid border-white my-4"></hr>
                 <Link to={project.git}>
                   <button>Github</button>
                 </Link>

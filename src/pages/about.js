@@ -16,7 +16,7 @@ function About(props) {
     const loaded = () => {
         return (
             <main className="m-2 flex flex-col">
-            <div className="m-4 md:6 flex flex-col">
+            <div className="m-4 md:6 flex flex-col text-white">
                 <section className="m-4 md:m-6">
                     <div className="flex flex-col md:flex-row">
                     <div className="m-2 p-2">

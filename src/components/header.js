@@ -10,12 +10,14 @@ function Header() {
 
   return (
     <header>
-      <h1 className="md:text-3xl text-xl text-center">Michelle Rotella</h1>
-      <nav className="p-4">
+      <h1 className="md:text-8xl text-white text-4xl font-[800] text-center">Michelle Rotella</h1>
+      <hr class="border border-solid border-white my-4"></hr>
+
+      <nav className="p-4 text-white">
         <div className="md:hidden flex justify-between">
           <button
             type="button"
-            className="text-gray-600 hover:text-gray-800 focus:outline-none"
+            className="text-white hover:text-white-800 focus:outline-none"
             onClick={toggleMenu}
           >
             <svg
