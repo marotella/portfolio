@@ -19,7 +19,7 @@ function About(props) {
             <main className="m-2 flex flex-col">
                 <Header/>
             <div className="m-4 md:6 flex flex-col text-white">
-                <section className="m-4 md:m-6 opacity-0 animate-fadeIn">
+                <section className="m-4 md:m-8 opacity-0 animate-fadeIn">
                     <div className="flex flex-col md:flex-row">
                     <div className="m-2 p-4">
                     <h2 className="text-2xl md:text-3xl font-[600] text-right">About me</h2>
@@ -28,10 +28,10 @@ function About(props) {
                     <p className="md:text-2xl text-xl text-right">{about.bio}</p>
                     <p className="md:text-2xl text-xl text-right font-[600]">Learn more about my experiences <Link className="font-[600] text-green hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:text-white" to={about.resume}>here</Link>.</p>
                     </div>
-                    <img className="shadow-md shadow-white"src={process.env.PUBLIC_URL + "/mrotella.jpeg"} alt="michelle" />
+                    <img className="shadow-md shadow-white max-w-full h-auto"src={process.env.PUBLIC_URL + "/mrotella.jpeg"} alt="michelle" />
                     </div>
                 </section>
-                <section className="m-4 md:m-6 opacity-0 animate-fadeIn">
+                <section className="m-4 md:m-8 opacity-0 animate-fadeIn">
                     <h2 className="text-2xl md:text-3xl font-[600] text-left mb-4 ml-4">Skills</h2>
                     <hr class="border border-solid border-white my-4"></hr>
                     <div className="flex md:flex-row flex-col justify-around  m-4 md:m-6">

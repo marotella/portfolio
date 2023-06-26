@@ -12,8 +12,9 @@ h2{
 }
 
 .pageimage {
-    max-width: 250px;
+    max-width: 300px;
 }
+
 
 @keyframes fadeIn {
     from {

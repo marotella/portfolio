@@ -13,7 +13,7 @@ function Home() {
                         <hr class="border border-solid border-white my-4"></hr>
 
                         <p className="mt-2 md:text-2xl text-l md:text-right">Hi! I'm Michelle! I am a full-stack software engineer, with a passion for using technology to make hard work easier. Born and raised in Pittsburgh, but now call NYC home.</p>
-                        <p className="mt-2 md:text-2xl text-lg md:text-right font-[600]">Learn more about my skills and experiences <Link className="font-[600] text-green hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:text-white" to="/about">here.</Link> </p>
+                        <p className="mt-2 md:text-2xl text-lg md:text-right font-[600]">Learn more about my skills and experiences <Link className="font-[700] text-green hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:text-white" to="/about">here.</Link> </p>
                     </div>
                     <div className="md:w-1/3 object-right p-4">
                         <img className="w-full h-auto shadow-md shadow-white" src={process.env.PUBLIC_URL + "/mrotella.jpeg"} alt="michelle" />
@@ -37,8 +37,8 @@ function Home() {
                         <h2 className="text-xl md:text-3xl s:text-center font-[600] mb-4">Contact</h2>
                         <hr class="border border-solid border-white my-4"></hr>
 
-                        <p className="mt-2 md:text-lg md:text-right">I know collaboration and feedback are key to delivering a great product. Let's make something great together!</p>
-                        <p className="mt-2 md:text-lg md:text-right font-[600]">Connect with me <Link className="font-[600] text-green hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:text-white" to="/contact">here</Link>!</p>
+                        <p className="mt-2 md:text-2xl text-lg md:text-right">I know collaboration and feedback are key to delivering a great product. Let's make something great together!</p>
+                        <p className="mt-2 md:text-2xl text-lg md:text-right font-[600]">Connect with me <Link className="font-[600] text-green hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:text-white" to="/contact">here</Link>!</p>
                     </div>
                 </section>
 

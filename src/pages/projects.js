@@ -38,12 +38,13 @@ function Projects(props) {
                 <h2 className=" text-3xl md:text-4xl font-[600]">{project.name}</h2>
                 <hr class="border border-solid border-white my-4"></hr>
                 <Link to={project.git}>
-                  <button className="p-4">Github</button>
+                  <button className="p-4 bg-green m-4 border hover:bg-white hover:text-green">Github</button>
                 </Link>
                 <Link to={project.live}>
-                  <button className="p-4">Live Site</button>
+                  <button className="p-4 bg-green m-4 border hover:bg-white hover:text-green">Live Site</button>
                 </Link>
                 <p className="md:text-xl text-lg mb-4">Project Type: {project.type}</p>
+                <p className="md:text-xl text-lg mb-4"> Technologies used: {project.technologies}</p>
                 <p className="md:text-xl text-lg">{project.description}</p>
               </div>
             </div>
