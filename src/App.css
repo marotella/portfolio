@@ -1,4 +1,47 @@
 .App {
-    background-color: #017A60;
+    background-color: #000000;
     color: white,
 }
+
+h2{
+    color: rgb(15, 142, 95)
+}
+
+.icon{
+    max-width: 65px;
+}
+
+.pageimage {
+    max-width: 250px;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeInFast {
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+  

@@ -10,14 +10,14 @@ function Header() {
 
   return (
     <header>
-      <h1 className="md:text-8xl text-white text-4xl font-[800] text-center">Michelle Rotella</h1>
-      <hr class="border border-solid border-white my-4"></hr>
+      {/* <h1 className="md:text-8xl text-white text-4xl font-[800] text-center opacity-0 animate-fadeInFast pt-4">Michelle Rotella</h1> */}
+      <hr class="border border-solid border-green my-4"></hr>
 
       <nav className="p-4 text-white">
         <div className="md:hidden flex justify-between">
           <button
             type="button"
-            className="text-white hover:text-white-800 focus:outline-none"
+            className="text-white bg-green hover:text-[600] p-2 border-white"
             onClick={toggleMenu}
           >
             <svg
@@ -50,32 +50,38 @@ function Header() {
             isMenuOpen ? "block" : "hidden"
           } md:flex md:items-center md:justify-around`}
         >
+
           <Link
             to="/"
-            className="block py-2 px-4"
+            className="block py-2 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600]"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="block py-2 px-4"
+            className="block py-2 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600]"
           >
             About Me
           </Link>
+
+          <img className="icon" src={process.env.PUBLIC_URL + "/M.png"} alt="project" />
+
           <Link
             to="/contact"
-            className="block py-2 px-4"
+            className="block py-2 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600]"
           >
             Contact
           </Link>
           <Link
             to="/projects"
-            className="block py-2 px-4"
+            className="block py-2 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600]"
           >
             Projects
           </Link>
         </div>
       </nav>
+      <hr class="border border-solid border-green my-4"></hr>
+
     </header>
   );
 }
