@@ -26,7 +26,7 @@ function Projects(props) {
         {projects.map((project) => (
           <div key={project.id} className="projectrow mb-8 text-left opacity-0 animate-fadeIn">
 
-            <div className="flex flex-col md:flex-row">
+            <div className="flex justify-center items-center flex-col md:flex-row">
               <div className="projectDisplay md:w-1/3 mb-4 md:mb-0">
                 <div className=" flex items-center justify-center">
                   <img className="flex shadow-md shadow-white items-center pageimage justify-center" src={process.env.PUBLIC_URL + project.image} alt={project.name} />
@@ -35,6 +35,7 @@ function Projects(props) {
               <div className="md:w-2/3 p-4">
                 <h2 className=" text-3xl md:text-4xl font-[600]">{project.name}</h2>
                 <hr class="border border-solid border-white my-4"></hr>
+                <div className="justify-center items-center">
                 <Link to={project.git}>
                   <button className="p-2 bg-green m-4 border"><img className="h-8" src={process.env.PUBLIC_URL + "/github.png"} alt="github" /></button>
                 </Link>
@@ -43,6 +44,7 @@ function Projects(props) {
                     open_in_new
                   </span></button>
                 </Link>
+                </div>
                 <p className="md:text-xl text-lg mb-4">Project Type: {project.type}</p>
                 <p className="md:text-xl text-lg mb-4"> Technologies used: {project.technologies}</p>
                 <p className="md:text-xl text-lg">{project.description}</p>

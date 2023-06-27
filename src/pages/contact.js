@@ -49,8 +49,8 @@ const loaded = () => {
                 </Link>
                 </div>
             </section>
-            <section className="flex flex-col items-cente m-4 md:m-8 text-white md:w-1/2">
-                <h2 className="text-xl md:text-2xl md:text-left mb-4 font-[400]">Email me</h2>
+            <section className="flex flex-col items-cente m-4 md:m-8 text-white md:w-1/2 border border-dashed p-4">
+                <h2 className="text-xl md:text-2xl md:text-center mb-4 font-[400]">Email me</h2>
                 <form className="flex flex-col" onSubmit={handleFormSubmit}>
                 <div className="flex m-2 md:m-4 items-center">
                     <label htmlFor="name  m-2" className="flex text-left items-left text-xl font-[500]">Name: </label>
@@ -63,7 +63,7 @@ const loaded = () => {
                     />
                     </div>
                      <div className="flex m-2 md:m-4 items-center">
-                    <label htmlFor="email  m-2" className="flex text-left items-left text-xl font-[500]">Email: </label>
+                    <label htmlFor="email  m-2" className="flex text-left items-left text-xl font-[500]"> Email: </label>
                     <input 
                         type="email"
                         id="email"
@@ -72,7 +72,7 @@ const loaded = () => {
                         className="m-2 w-full m-2 w-full text-green text-lg md:text-xl p-2"
                     />
                     </div>
-                    <div className="flex m-2 md:m-4 flex-col md:text-left items-center">
+                    <div className="flex m-2 md:m-4 flex-col md:text-left">
                     <label htmlFor="message m-2" className="flex text-left items-left text-xl font-[500]">Message: </label>
                     <textarea 
                         type="text"
