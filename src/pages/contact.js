@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import Header from "../components/header"
-
+import {Link} from "react-router-dom"
 function Contact(props) {
     const [contact, setContact] = useState(null)
     const [name, setName] = useState("");
@@ -35,11 +35,19 @@ function Contact(props) {
 
 const loaded = () => {
     return (
-        <main className="">
+        <main className="flex flex-col">
         <Header/>
         <div className="text-center m-8 md:m-16 flex items-center flex-col justify-center opacity-0 animate-fadeIn">
             <section className="flex flex-col items-center m-4 md:m-8 text-white">
                 <h2 className="text-xl md:text-3xl s:text-center mb-4 font-[600]">Let's Connect!</h2>
+                <div className="flex flex-row justify-between">
+                <Link to="https://github.com/marotella">
+                  <button className="p-2 bg-green m-4 border flex flex-row justify-center items-center"><p className="p-2 text-2xl">GitHub: </p> <img className="h-8" src={process.env.PUBLIC_URL + "/github.png"} alt="github" /></button>
+                </Link>
+                <Link to="https://github.com/marotella">
+                  <button className="p-2 bg-green m-4 border flex flex-row justify-center items-center"><p className="p-2 text-2xl">LinkedIn: </p> <img className="h-8" src={process.env.PUBLIC_URL + "/linkedin.png"} alt="github" /></button>
+                </Link>
+                </div>
             </section>
             <section className="flex flex-col items-cente m-4 md:m-8 text-white md:w-1/2">
                 <h2 className="text-xl md:text-2xl md:text-left mb-4 font-[400]">Email me</h2>
