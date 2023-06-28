@@ -75,7 +75,7 @@ function HeaderHome() {
 
           <Link
             to="/contact"
-            className="block py-2 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600] group relative"
+            className="block py-1 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600] group relative"
           >
             <span className="material-symbols-outlined md:text-4xl text-3xl">
               mail
@@ -86,7 +86,7 @@ function HeaderHome() {
           </Link>
           <Link
             to="/projects"
-            className="block py-2 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600] group relative"
+            className="block py-1 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600] group relative"
           >
             <span className="material-symbols-outlined md:text-4xl text-3xl">
               work
