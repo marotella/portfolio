@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -12,9 +14,8 @@ import About from "./pages/about"
 import Contact from "./pages/contact"
 
 
-
 function App() {
-  const URL =  process.env.PORT || "http://localhost:4000/"
+  const URL =  process.env.PORT || 4000
   return (
     <div className="App">
       <Routes>
