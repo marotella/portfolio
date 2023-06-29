@@ -10,8 +10,8 @@ function HeaderHome() {
 
   return (
     <header>
-      {/* <h1 className="md:text-8xl text-black text-4xl font-[800] text-center opacity-0 animate-fadeInFast pt-4">Michelle Rotella</h1> */}
-      <hr class="border border-solid border-green my-4 fade-in-from-right"></hr>
+  
+      <hr className="border border-solid border-green my-4 fade-in-from-right"></hr>
 
       <nav className="p-4 text-black">
         <div className="md:hidden flex justify-between">
