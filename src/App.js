@@ -1,4 +1,4 @@
-require("dotenv").config()
+
 
 import './App.css';
 import React from 'react';
@@ -15,7 +15,7 @@ import Contact from "./pages/contact"
 
 
 function App() {
-  const URL =  process.env.PORT || 4000
+  const URL =  process.env.PORT
   return (
     <div className="App">
       <Routes>
