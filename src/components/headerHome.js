@@ -10,14 +10,14 @@ function HeaderHome() {
 
   return (
     <header>
-      {/* <h1 className="md:text-8xl text-white text-4xl font-[800] text-center opacity-0 animate-fadeInFast pt-4">Michelle Rotella</h1> */}
-      <hr class="border border-solid border-green my-4"></hr>
+      {/* <h1 className="md:text-8xl text-black text-4xl font-[800] text-center opacity-0 animate-fadeInFast pt-4">Michelle Rotella</h1> */}
+      <hr class="border border-solid border-green my-4 fade-in-from-right"></hr>
 
-      <nav className="p-4 text-white">
+      <nav className="p-4 text-black">
         <div className="md:hidden flex justify-between">
           <button
             type="button"
-            className="text-white bg-green hover:text-[600] p-2 border-white"
+            className="text-black bg-green hover:text-[600] p-2 border-black"
             onClick={toggleMenu}
           >
             <svg
@@ -57,7 +57,7 @@ function HeaderHome() {
             <span class="material-symbols-outlined md:text-4xl text-3xl">
               home
             </span>
-            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs py-1 px-2 rounded">
+            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-green text-white text-xs py-1 px-2 rounded">
               Home
             </span>
           </Link>
@@ -68,7 +68,7 @@ function HeaderHome() {
             <span className="material-symbols-outlined md:text-4xl text-3xl">
               face_3
             </span>
-            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs py-1 px-2 rounded">
+            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-green text-white text-xs py-1 px-2 rounded">
               About
             </span>
           </Link>
@@ -80,7 +80,7 @@ function HeaderHome() {
             <span className="material-symbols-outlined md:text-4xl text-3xl">
               mail
             </span>
-            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs py-1 px-2 rounded">
+            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-green text-white text-xs py-1 px-2 rounded">
               Contact
             </span>
           </Link>
@@ -91,13 +91,13 @@ function HeaderHome() {
             <span className="material-symbols-outlined md:text-4xl text-3xl">
               work
             </span>
-            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs py-1 px-2 rounded">
+            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-green text-white text-xs py-1 px-2 rounded">
               Work
             </span>
           </Link>
         </div>
       </nav>
-      <hr class="border border-solid border-green mt-2 mb-4"></hr>
+      <hr class="border border-solid border-green mt-2 mb-4 fade-in-from-left"></hr>
 
     </header>
   );

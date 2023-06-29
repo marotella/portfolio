@@ -1,6 +1,7 @@
 .App {
-    background-color: #000000;
-    color: white,
+    background-color: #FFFFFF;
+    color: black;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 h2{
@@ -46,3 +47,36 @@ h2{
     animation-fill-mode: both;
   }
   
+  @keyframes fadeInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .fade-in-from-right {
+    height: 1px;
+    width: 100%;
+    animation: fadeInFromRight 1s ease-in-out;
+  }
+
+
+  @keyframes fadeInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  
+  .fade-in-from-left {
+    width: 100%;
+    animation: fadeInFromLeft 1s ease-in-out;
+  }
