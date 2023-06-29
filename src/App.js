@@ -14,7 +14,7 @@ import Contact from "./pages/contact"
 
 
 function App() {
-  const URL = "http://localhost:4000/"
+  const URL =  process.env.PORT || "http://localhost:4000/"
   return (
     <div className="App">
       <Routes>
