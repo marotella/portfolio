@@ -10,10 +10,11 @@ import Home from "./pages/Home"
 import Projects from './pages/projects'
 import About from "./pages/about"
 import Contact from "./pages/contact"
+require("dotenv").config();
 
 
 function App() {
-  const URL = process.env.PORT || 4000
+  const URL =  process.env.PORT || 4000
   return (
     <div className="App">
       <Routes>
