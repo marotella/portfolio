@@ -72,7 +72,7 @@ function About(props) {
                     </section>
 
                     </div>
-                    <p className="text-center">You can see projects that demonstrate my skills here.</p>
+                    <p className="text-center">Check out my skills in action <Link to="/projects" className="text-green hover:font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 ">here</Link></p>
                 </section>
                 
             </div>
