@@ -44,8 +44,8 @@ function Home() {
                     <Link to="https://github.com/marotella">
                         <button className="p-2 w-full bg-green m-4 border flex flex-row justify-center items-center shadow-md shadow-black"><p className="p-2 text-2xl">GitHub: </p> <img className="h-8" src={process.env.PUBLIC_URL + "/github.png"} alt="github" /></button>
                     </Link>
-                    <Link to="https://github.com/marotella">
-                        <button className="p-2 w-full bg-green m-4 border flex flex-row justify-center items-center shadow-md shadow-black"><p className="p-2 text-2xl">LinkedIn: </p> <img className="h-8" src={process.env.PUBLIC_URL + "/linkedin.png"} alt="github" /></button>
+                    <Link to="https://www.linkedin.com/in/michelle-rotella/">
+                        <button className="p-2 w-full bg-green m-4 border flex flex-row justify-center items-center shadow-md shadow-black"><p className="p-2 text-2xl">LinkedIn: </p> <img className="h-8" src={process.env.PUBLIC_URL + "/linkedIn.png"} alt="github" /></button>
                     </Link>
                 </div>
             </section>
