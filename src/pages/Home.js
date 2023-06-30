@@ -12,7 +12,7 @@ function Home() {
                     <h2 className="text-xl md:text-3xl mb-4 s:text-center font-[600]">About Me</h2>
                     <hr class="border border-dashed border-black my-4 fade-in-from-right"></hr>
 
-                    <p className="mt-2 md:text-2xl font-[300] text-l md:text-right">Hi! I'm Michelle! I am a full-stack software engineer, with a passion for using technology to make hard work easier. Born and raised in Pittsburgh, but now call NYC home.</p>
+                    <p className="mt-2 md:text-2xl font-[300] text-l md:text-right">Hi! I'm Michelle! I am a full-stack software engineer, with a passion for using technology to make hard work easier. I was born and raised in Pittsburgh, but I now call NYC home.</p>
                     <p className="mt-2 md:text-2xl text-lg md:text-right font-[400]">Learn more about my skills and experiences <Link className="font-[500] text-green hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:text-black" to="/about">here.</Link> </p>
                 </div>
                 <div className="md:w-1/3 object-right p-4">
@@ -28,7 +28,7 @@ function Home() {
                     <h2 className="text-xl md:text-3xl s:text-center mb-4 font-[600] ">Projects</h2>
                     <hr class="border border-dashed border-black my-4 fade-in-from-left"></hr>
 
-                    <p className="mt-2 md:text-2xl font-[200] text-lg md:text-left">Learn more about my skills, and what I can offer by taking a look at some of my work! </p>
+                    <p className="mt-2 md:text-2xl font-[200] text-lg md:text-left">As a full-stack engineer I have a broad skill set. Learn more about my skills, and what I can offer, by taking a look at some of my work! </p>
                     <p className="mt-2 md:text-2xl text-lg md:text-left font-[400]">View some of my recent projects  <Link className="font-[500] text-green hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:text-black" to="/projects">here</Link></p>
                 </div>
             </section>
@@ -37,7 +37,7 @@ function Home() {
                     <h2 className="text-xl md:text-3xl s:text-center font-[600] mb-4">Contact</h2>
                     <hr class="border border-dashed border-black fade-in-from-right my-4"></hr>
 
-                    <p className="mt-2 md:text-2xl text-lg md:text-right font-[200]">I know collaboration and feedback are key to delivering a great product. Let's make something great together!</p>
+                    <p className="mt-2 md:text-2xl text-lg md:text-right font-[200]">I believe that collaboration and feedback are key to delivering a great product. Let's make something great together!</p>
                     <p className="mt-2 md:text-2xl text-lg md:text-right font-[400]">Connect with me <Link className="font-[500] text-green hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:text-black" to="/contact">here</Link></p>
                 </div>
                 <div className="flex flex-col">
