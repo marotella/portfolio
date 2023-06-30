@@ -12,7 +12,7 @@ import About from "./pages/about"
 import Contact from "./pages/contact"
 
 function App() {
-  const URL = process.env.PORT || "http://localhost:4000/"; // Accessing environment variable
+  const URL = process.env.REACT_APP_API || "http://localhost:4000/"; // Accessing environment variable
   return (
     <div className="App">
       <Routes>
