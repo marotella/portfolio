@@ -1,5 +1,5 @@
 # My Portfolio
-This is mean to demonstrate my skills and progress as a junior developer!
+This portfolio allows you to see my skills and progress as a junior developer!
 
 ## Deployed Link
 https://michelle-rotella-7b59d8677ac4.herokuapp.com
