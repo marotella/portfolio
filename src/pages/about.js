@@ -41,6 +41,7 @@ function About(props) {
                         <ul className="text-center md:text-left"> 
                             <li className="mb-2 md:text-xl text-l">+ Git</li>
                             <li className="mb-2 md:text-xl text-l">+ VSCode</li>
+                            <li className="mb-2 md:text-xl text-l">+ Postman</li>
                             <li className="mb-2 md:text-xl text-l">+ GitHub</li>
                             <li className="mb-2 md:text-xl text-l">+ Trello</li>
                             <li className="mb-2 md:text-xl text-l">+ Asana</li>
