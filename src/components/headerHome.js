@@ -72,18 +72,6 @@ function HeaderHome() {
               About
             </span>
           </Link>
-
-          <Link
-            to="/contact"
-            className="block py-1 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600] group relative"
-          >
-            <span className="material-symbols-outlined md:text-4xl text-3xl">
-              mail
-            </span>
-            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-green text-white text-xs py-1 px-2 rounded">
-              Contact
-            </span>
-          </Link>
           <Link
             to="/projects"
             className="block py-1 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600] group relative"
@@ -93,6 +81,17 @@ function HeaderHome() {
             </span>
             <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-green text-white text-xs py-1 px-2 rounded">
               Work
+            </span>
+          </Link>
+          <Link
+            to="/contact"
+            className="block py-1 px-4 text-l md:text-2xl font-[500] hover:underline hover:underline-offset-4 md:hover:underline-offset-8 hover:font-[600] group relative"
+          >
+            <span className="material-symbols-outlined md:text-4xl text-3xl">
+              mail
+            </span>
+            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-green text-white text-xs py-1 px-2 rounded">
+              Contact
             </span>
           </Link>
         </div>
